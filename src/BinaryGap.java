@@ -1,5 +1,4 @@
 public class BinaryGap {
-    int[] binary = new int[33];
     public int solution(int N) {
         int ans = 0;
         int start = -1;
