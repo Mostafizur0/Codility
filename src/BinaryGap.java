@@ -1,7 +1,6 @@
 public class BinaryGap {
     int[] binary = new int[33];
     public int solution(int N) {
-        //preCalculation();
         int ans = 0;
         int start = -1;
         for (int i = 30; i >= 0; i--) {
@@ -21,11 +20,5 @@ public class BinaryGap {
             }
         }
         return ans;
-    }
-
-    void preCalculation() {
-        for (int i=30; i>=0; i--) {
-            binary[i] = (int) Math.pow(2, i);
-        }
     }
 }
